@@ -1,0 +1,1949 @@
+(dp0
+S'buildDestination'
+p1
+V/Users/JenC/Desktop/MOM QUEST/MomQuest4/MomQuestTest
+p2
+sS'saveDestination'
+p3
+S'/Users/JenC/Desktop/MOM QUEST/MomQuest4/momquestnew.tws'
+p4
+sS'target'
+p5
+S'sugarcane'
+p6
+sS'storyPanel'
+p7
+(dp8
+S'widgets'
+p9
+(lp10
+(dp11
+S'selected'
+p12
+I00
+sS'pos'
+p13
+(lp14
+I394
+aI15
+asS'passage'
+p15
+(itiddlywiki
+Tiddler
+p16
+(dp17
+S'text'
+p18
+VYou walk in the door and throw your keys on the side table. \u000a\u000aYou hang up your coat on its regular hook then walk over\u000ato the couch and fall onto it.  \u000a\u000aLong day. \u000a\u000aYou stare at the celing for a minute or two and decide that you \u000ashould get up before you fall asleep.\u000a\u000aReluctantly, you pull yourself into a sitting position.\u000a\u000aWhat now? <<remember $panic = false>> <<remember $momMad = 1>> <<remember $youMad = 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>[[Bathroom break|BathroomBreak]]\u000a[[Call Mom|CallMom]]\u000a[[Make sandwich|MakeSandwich]]<<endif>>
+p19
+sS'tags'
+p20
+(lp21
+sS'created'
+p22
+ctime
+struct_time
+p23
+((I2013
+I5
+I18
+I21
+I24
+I50
+I5
+I138
+I1
+tp24
+(dp25
+tp26
+Rp27
+sS'modified'
+p28
+g27
+sS'title'
+p29
+VStart
+p30
+sbsa(dp31
+g12
+I00
+sg13
+(lp32
+I10
+aI16
+asg15
+(itiddlywiki
+Tiddler
+p33
+(dp34
+g18
+VPhone Home
+p35
+sg20
+(lp36
+sg22
+g23
+((I2013
+I5
+I18
+I22
+I14
+I1
+I5
+I138
+I1
+tp37
+(dp38
+tp39
+Rp40
+sg28
+g40
+sg29
+VStoryTitle
+p41
+sbsa(dp42
+g12
+I00
+sg13
+(lp43
+I10
+aI149
+asg15
+(itiddlywiki
+Tiddler
+p44
+(dp45
+g18
+VJennifer Costa\u000a      & \u000aKaitlin Smith
+p46
+sg20
+(lp47
+sg22
+g23
+((I2013
+I5
+I18
+I22
+I14
+I7
+I5
+I138
+I1
+tp48
+(dp49
+tp50
+Rp51
+sg28
+g51
+sg29
+VStoryAuthor
+p52
+sbsa(dp53
+g12
+I00
+sg13
+(lp54
+I237
+aI208
+asg15
+(itiddlywiki
+Tiddler
+p55
+(dp56
+g18
+VYou walk down the hall to the bathroom.  \u000a\u000aAs you close the door, your cell phone rings. <<remember $momMad = $momMad + 1>> <<remember $youMad = $youMad + 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>[[It's your mom|NoCallMom]]<<endif>>
+p57
+sg20
+(lp58
+sg22
+g23
+((I2013
+I5
+I18
+I23
+I29
+I57
+I5
+I138
+I1
+tp59
+(dp60
+tp61
+Rp62
+sg28
+g62
+sg29
+VBathroomBreak
+p63
+sbsa(dp64
+g12
+I00
+sg13
+(lp65
+I403
+aI210
+asg15
+(itiddlywiki
+Tiddler
+p66
+(dp67
+g18
+VYou grab your phone from your bag.\u000a\u000a//Favourites//\u000a\u000a//Home//\u000a\u000a//Call//\u000a\u000aIt's ringing.\u000a\u000aGood thing you remembered to call.  \u000a\u000aYou haven't talked to Mom in two days and you know \u000ahow she gets when she hasn't heard from you in 48 hours.<<remember $momMad = $momMad - 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>[["Hello?"|HelloMomGood]]<<endif>>\u000a\u000a
+p68
+sg20
+(lp69
+sg22
+g23
+((I2013
+I5
+I18
+I23
+I41
+I12
+I5
+I138
+I1
+tp70
+(dp71
+tp72
+Rp73
+sg28
+g73
+sg29
+VCallMom
+p74
+sbsa(dp75
+g12
+I00
+sg13
+(lp76
+I567
+aI215
+asg15
+(itiddlywiki
+Tiddler
+p77
+(dp78
+g18
+VYou head to the kitchen and search through the fridge.\u000a\u000aDarn. \u000a\u000aYou're out of bread.\u000a\u000aOh well, you can just pick up a loaf from the convenience store on the corner.\u000a\u000aYou grab your coat and check your purse for change. \u000a\u000aYour phone rings.<<remember $momMad = $momMad + 1>> <<remember $youMad = $youMad + 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>[[It's your mom|NoCallMom]]<<endif>>
+p79
+sg20
+(lp80
+sg22
+g23
+((I2013
+I5
+I18
+I23
+I41
+I14
+I5
+I138
+I1
+tp81
+(dp82
+tp83
+Rp84
+sg28
+g84
+sg29
+VMakeSandwich
+p85
+sbsa(dp86
+g12
+I00
+sg13
+(lp87
+I476
+aI394
+asg15
+(itiddlywiki
+Tiddler
+p88
+(dp89
+g18
+VYou:  "Hi Mom" \u000a\u000aHer: Hello my beautiful daughter.  I haven't heard from you in a\u000afew days, I was starting to get worried." \u000a\u000aYou: "Yea, sorry Mom.  It's been really busy at work lately and I just got home." \u000a\u000aHer:  "Don't let them work you too hard."\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: "[[I won't."|HaveYouEaten]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p90
+sg20
+(lp91
+sg22
+g23
+((I2013
+I5
+I19
+I0
+I1
+I25
+I6
+I139
+I1
+tp92
+(dp93
+tp94
+Rp95
+sg28
+g95
+sg29
+VHelloMomGood
+p96
+sbsa(dp97
+g12
+I00
+sg13
+(lp98
+I301
+aI392
+asg15
+(itiddlywiki
+Tiddler
+p99
+(dp100
+g18
+VCrap.\u000a\u000aWhen was the last time you called her?\u000a\u000aYesterday?  \u000a\u000aNo.\u000a\u000aTwo days ago? \u000a\u000aCrud. \u000a\u000aYou know how she gets when you haven't talked to her in 48 hours.\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>[[Answer the phone|HelloMomBad]]<<endif>>
+p101
+sg20
+(lp102
+sg22
+g23
+((I2013
+I5
+I19
+I0
+I6
+I11
+I6
+I139
+I1
+tp103
+(dp104
+tp105
+Rp106
+sg28
+g106
+sg29
+VNoCallMom
+p107
+sbsa(dp108
+g12
+I00
+sg13
+(lp109
+I115
+aI410
+asg15
+(itiddlywiki
+Tiddler
+p110
+(dp111
+g18
+VYou: "Hi Mom"\u000a\u000aHer: " .... Hello!  Are you still alive?  Where have you been?"\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>[[Sorry, I've been busy|BeenBusy]]\u000a[[I called yesterday but no one answered!|CalledYesterday]] <<set $numberOfLinks = 2>>\u000a\u000a<html>Hurry and choose an answer! <span id='countdown'>10 seconds remaining!</span></html><<countdown>><<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p112
+sg20
+(lp113
+sg22
+g23
+((I2013
+I5
+I19
+I0
+I17
+I41
+I6
+I139
+I1
+tp114
+(dp115
+tp116
+Rp117
+sg28
+g117
+sg29
+VHelloMomBad
+p118
+sbsa(dp119
+g12
+I00
+sg13
+(lp120
+I407
+aI563
+asg15
+(itiddlywiki
+Tiddler
+p121
+(dp122
+g18
+VHer: "You're home?  Have you eaten?"\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Yea"|YesFood]]\u000aYou: [["No, not yet"|NoFood]] <<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p123
+sg20
+(lp124
+sg22
+g23
+((I2013
+I5
+I19
+I0
+I30
+I52
+I6
+I139
+I1
+tp125
+(dp126
+tp127
+Rp128
+sg28
+g128
+sg29
+VHaveYouEaten
+p129
+sbsa(dp130
+g12
+I00
+sg13
+(lp131
+I10
+aI630
+asg15
+(itiddlywiki
+Tiddler
+p132
+(dp133
+g18
+V<<if $panic>>You panicked!\u000aYou: Sorry, I've been busy.<<endif>> <<remember $panic = false>>\u000a\u000aHer: "Too busy for your family?  Your family should be the first priority.  How could you forget about us?"\u000a\u000aYou:  "Come on Mom, you know that's not what I meant!" \u000a\u000aHer:  "It only takes a minute to call and let us know that you're ok."  <<remember $momMad = $momMad + 1>> <<remember $youMad = $youMad + 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["You're right.  Sorry Mom."|HaveYouEaten]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p134
+sg20
+(lp135
+sg22
+g23
+((I2013
+I5
+I19
+I0
+I31
+I46
+I6
+I139
+I1
+tp136
+(dp137
+tp138
+Rp139
+sg28
+g139
+sg29
+VBeenBusy
+p140
+sbsa(dp141
+g12
+I00
+sg13
+(lp142
+I181
+aI631
+asg15
+(itiddlywiki
+Tiddler
+p143
+(dp144
+g18
+V<<if $panic>>You panicked!<<endif>>\u000a\u000aYou: "I called yesterday evening.  No one answered." \u000a\u000aHer: "Hmm, I think your Dad was working in the garden while I was at the bakery, so he probably couldn't get to the phone.  Sorry about that."\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["It's ok, Mom."|HaveYouEaten]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p145
+sg20
+(lp146
+sg22
+g23
+((I2013
+I5
+I19
+I0
+I32
+I7
+I6
+I139
+I1
+tp147
+(dp148
+tp149
+Rp150
+sg28
+g150
+sg29
+VCalledYesterday
+p151
+sbsa(dp152
+g12
+I00
+sg13
+(lp153
+I405
+aI789
+asg15
+(itiddlywiki
+Tiddler
+p154
+(dp155
+g18
+VHer: "What did you eat?"\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["I made a sandwhich."|Sandwhich]]\u000aYou: [["Take-out"|TakeOut]]		\u000aYou: [["I cooked!"|Cooked]] <<set $numberOfLinks = 3>>\u000a\u000a<html>Hurry and choose an answer! <span id='countdown'>10 seconds remaining!</span></html><<countdown>><<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p156
+sg20
+(lp157
+sg22
+g23
+((I2013
+I5
+I19
+I0
+I57
+I12
+I6
+I139
+I1
+tp158
+(dp159
+tp160
+Rp161
+sg28
+g161
+sg29
+VYesFood
+p162
+sbsa(dp163
+g12
+I00
+sg13
+(lp164
+I540
+aI785
+asg15
+(itiddlywiki
+Tiddler
+p165
+(dp166
+g18
+VHer: "What do you mean you haven't eaten yet?  What are you going to have?"<<remember $momMad = $momMad + 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["I'm not really hungry."|NotHungry]]\u000aYou: [["I was just about to make something, but I wanted to talk to you first."|AboutToEat]] <<set $numberOfLinks = 2>>\u000a\u000a<html>Hurry and choose an answer! <span id='countdown'>10 seconds remaining!</span></html><<countdown>><<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p167
+sg20
+(lp168
+sg22
+g23
+((I2013
+I5
+I19
+I0
+I57
+I43
+I6
+I139
+I1
+tp169
+(dp170
+tp171
+Rp172
+sg28
+g172
+sg29
+VNoFood
+p173
+sbsa(dp174
+g12
+I00
+sg13
+(lp175
+F317.0
+aF983.0
+asg15
+(itiddlywiki
+Tiddler
+p176
+(dp177
+g18
+V<<if $panic>>You panicked!\u000aYou:I ordered take-out.<<endif>> <<remember $panic = false>>\u000a\u000aHer: "Why are you throwing away all of your money on hamburgers?  How are you ever going to buy a house?" <<remember $momMad = $momMad + 1>> <<remember $youMad = $youMad + 1>> \u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You:  [["Sorry, Mom."|Yesterday]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p178
+sg20
+(lp179
+sg22
+g23
+((I2013
+I5
+I19
+I1
+I21
+I14
+I6
+I139
+I1
+tp180
+(dp181
+tp182
+Rp183
+sg28
+g183
+sg29
+VTakeOut
+p184
+sbsa(dp185
+g12
+I00
+sg13
+(lp186
+I463
+aI983
+asg15
+(itiddlywiki
+Tiddler
+p187
+(dp188
+g18
+V<<if $panic>>You panicked!\u000aYou: I cooked.<<endif>> <<remember $panic = false>>\u000a\u000aHer: //*Laughter// "And it was edible? You've come so far!I'm so proud of the steps you've finally taken towards becoming an adult!"<<remember $momMad = $momMad - 1>> <<remember $youMad = $youMad + 1>> \u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Thanks, Mom?|Yesterday]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p189
+sg20
+(lp190
+sg22
+g23
+((I2013
+I5
+I19
+I1
+I21
+I20
+I6
+I139
+I1
+tp191
+(dp192
+tp193
+Rp194
+sg28
+g194
+sg29
+VCooked
+p195
+sbsa(dp196
+g12
+I00
+sg13
+(lp197
+I735
+aI983
+asg15
+(itiddlywiki
+Tiddler
+p198
+(dp199
+g18
+V<<if $panic>>You panicked!\u000aYou: I was just about to make something, but I wanted to talk to you first.<<endif>> <<remember $panic = false>>\u000a\u000aHer: "Well don't let me keep you."<<remember $momMad = $momMad - 1>> <<remember $youMad = $youMad - 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["It's ok, Mom"|Yesterday]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p200
+sg20
+(lp201
+sg22
+g23
+((I2013
+I5
+I19
+I2
+I40
+I11
+I6
+I139
+I1
+tp202
+(dp203
+tp204
+Rp205
+sg28
+g205
+sg29
+VAboutToEat
+p206
+sbsa(dp207
+g12
+I00
+sg13
+(lp208
+I604
+aI984
+asg15
+(itiddlywiki
+Tiddler
+p209
+(dp210
+g18
+V<<if $panic>>You panicked!\u000aYou: I'm not really hungry.<<endif>> <<remember $panic = false>>\u000a\u000aHer: "How can you function as an adult if you can't even remember to feed yourself? I hope that you're not starving yourself\u000aon purpose, my beautiful daughter!"<<remember $momMad = $momMad + 1>> <<remember $youMad = $youMad + 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Sorry Mom."|Yesterday]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p211
+sg20
+(lp212
+sg22
+g23
+((I2013
+I5
+I19
+I2
+I40
+I11
+I6
+I139
+I1
+tp213
+(dp214
+tp215
+Rp216
+sg28
+g216
+sg29
+VNotHungry
+p217
+sbsa(dp218
+g12
+I00
+sg13
+(lp219
+I181
+aI980
+asg15
+(itiddlywiki
+Tiddler
+p220
+(dp221
+g18
+V<<if $panic>>You panicked!\u000aYou: I made a sandwich.<<endif>> <<remember $panic = false>>\u000a\u000aHer:  "Well at least you're not spending your money on junk.  But you should really get better at cooking.  I can teach you!"<<remember $momMad = $momMad - 1>> <<remember $youMad = $youMad - 1>> \u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: "Sounds good.  [[Thanks Mom"|Yesterday]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p222
+sg20
+(lp223
+sg22
+g23
+((I2013
+I5
+I19
+I2
+I42
+I47
+I6
+I139
+I1
+tp224
+(dp225
+tp226
+Rp227
+sg28
+g227
+sg29
+VSandwhich
+p228
+sbsa(dp229
+g12
+I00
+sg13
+(lp230
+I426
+aI1156
+asg15
+(itiddlywiki
+Tiddler
+p231
+(dp232
+g18
+VHer: "So how have you been?  What did you do yesterday?"\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Oh I just went to work then came home and relaxed."|RelaxBad]]\u000aYou: [["I went to work and then went out with some friends."|WentOutGood]]\u000aYou: [["Nothing really, I went to work then picked up some groceries."|GroceriesGood]] <<set $numberOfLinks = 3>>\u000a\u000a<html>Hurry and choose an answer! <span id='countdown'>10 seconds remaining!</span></html><<countdown>><<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p233
+sg20
+(lp234
+sg22
+g23
+((I2013
+I5
+I19
+I2
+I44
+I59
+I6
+I139
+I1
+tp235
+(dp236
+tp237
+Rp238
+sg28
+g238
+sg29
+VYesterday
+p239
+sbsa(dp240
+g12
+I00
+sg13
+(lp241
+I158
+aI1307
+asg15
+(itiddlywiki
+Tiddler
+p242
+(dp243
+g18
+V<<if $panic>>You panicked!\u000aYou: Oh I just went to work then came home and relaxed.<<endif>> <<remember $panic = false>>\u000a\u000aHer: "You're young and there are so many things that need to get \u000adone and you wasted your time by not doing any of them? I know how smart you are my beautiful daughter, I know you can\u000ause your time better."<<remember $momMad = $momMad + 1>> <<remember $youMad = $youMad + 1>> \u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Sorry Mom. I'll try to do better."|Lunch]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p244
+sg20
+(lp245
+sg22
+g23
+((I2013
+I5
+I19
+I2
+I58
+I21
+I6
+I139
+I1
+tp246
+(dp247
+tp248
+Rp249
+sg28
+g249
+sg29
+VRelaxBad
+p250
+sbsa(dp251
+g12
+I00
+sg13
+(lp252
+I427
+aI1325
+asg15
+(itiddlywiki
+Tiddler
+p253
+(dp254
+g18
+V<<if $panic>>You panicked!\u000aYou: I went to work and then went out with some friends.<<endif>> <<remember $panic = false>>\u000a\u000aHer:  "Which friends did you go out with?"<<remember $momMad = $momMad - 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Work Friends"|WorkFriends]]\u000aYou: [["Rachel and Michael, you know them"|BestFriends]]\u000aYou: [["Just some friends, you don't know them."|OtherFriends]] <<set $numberOfLinks = 3>>\u000a\u000a<html>Hurry and choose an answer! <span id='countdown'>1 minute 5 seconds remaining</span></html><<countdown>><<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p255
+sg20
+(lp256
+sg22
+g23
+((I2013
+I5
+I19
+I2
+I58
+I21
+I6
+I139
+I1
+tp257
+(dp258
+tp259
+Rp260
+sg28
+g260
+sg29
+VWentOutGood
+p261
+sbsa(dp262
+g12
+I00
+sg13
+(lp263
+I654
+aI1333
+asg15
+(itiddlywiki
+Tiddler
+p264
+(dp265
+g18
+V<<if $panic>>You panicked!\u000aYou: Nothing really, I went to work then picked up some groceries.<<endif>> <<remember $panic = false>>\u000a\u000aHer: "Smart girl.  You have to take care of the things you need before you can do the things you want."<<remember $momMad = $momMad - 1>> <<remember $youMad = $youMad - 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You:  [["Thanks Mom.|Lunch]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p266
+sg20
+(lp267
+sg22
+g23
+((I2013
+I5
+I19
+I2
+I58
+I22
+I6
+I139
+I1
+tp268
+(dp269
+tp270
+Rp271
+sg28
+g271
+sg29
+VGroceriesGood
+p272
+sbsa(dp273
+g12
+I00
+sg13
+(lp274
+I247
+aI1465
+asg15
+(itiddlywiki
+Tiddler
+p275
+(dp276
+g18
+V<<if $panic>>You panicked!\u000aYou: Work friends.<<endif>> <<remember $panic = false>>\u000a\u000aHer: "It's so nice that you get along with your co-workers,\u000aand I'm glad that you aren't working long hours like your last job.  But I hope that you weren't drinking beer out of a bottle,\u000ait doesn't look nice on a lady"<<remember $momMad = $momMad - 1>> <<remember $youMad = $youMad - 1>> \u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Come on, Mom!"|Lunch]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p277
+sg20
+(lp278
+sg22
+g23
+((I2013
+I5
+I19
+I3
+I4
+I9
+I6
+I139
+I1
+tp279
+(dp280
+tp281
+Rp282
+sg28
+g282
+sg29
+VWorkFriends
+p283
+sbsa(dp284
+g12
+I00
+sg13
+(lp285
+I383
+aI1466
+asg15
+(itiddlywiki
+Tiddler
+p286
+(dp287
+g18
+V<<if $panic>>You panicked!\u000aYou: Rachel and Michael, you know them.<<endif>> <<remember $panic = false>>\u000a\u000aHer: "You went out with Rachel and Michael? Which one is Michael again?"\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["The teacher."|NotHelpful]]\u000aYou: "The one that used to live around the corner when I was \u000ain highschool. [[His parents had a red door."|Pie]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p288
+sg20
+(lp289
+sg22
+g23
+((I2013
+I5
+I19
+I3
+I4
+I9
+I6
+I139
+I1
+tp290
+(dp291
+tp292
+Rp293
+sg28
+g293
+sg29
+VBestFriends
+p294
+sbsa(dp295
+g12
+I00
+sg13
+(lp296
+I519
+aI1467
+asg15
+(itiddlywiki
+Tiddler
+p297
+(dp298
+g18
+V<<if $panic>>You panicked!\u000aYou: Just some friends, you don't know them.<<endif>> <<remember $panic = false>>\u000a\u000aHer: "Where did you go?"<<remember $momMad = $momMad + 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Out for dinner.  We tried a new restaurant."|DinnerOut]]\u000aYou"  [["We went to see a movie."|MovieOut]]	\u000a\u000a<html>Hurry and choose an answer! <span id='countdown'>10 seconds remaining!</span></html><<countdown>><<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p299
+sg20
+(lp300
+sg22
+g23
+((I2013
+I5
+I19
+I3
+I4
+I10
+I6
+I139
+I1
+tp301
+(dp302
+tp303
+Rp304
+sg28
+g304
+sg29
+VOtherFriends
+p305
+sbsa(dp306
+g12
+I00
+sg13
+(lp307
+I318
+aI1627
+asg15
+(itiddlywiki
+Tiddler
+p308
+(dp309
+g18
+VHer: "That's not helpful. You know so many teachers!"<<remember $momMad = $momMad + 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>Me: "The one that used to live around the corner when I was in highschool.  [[His parents had a red door."|Pie]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p310
+sg20
+(lp311
+sg22
+g23
+((I2013
+I5
+I19
+I3
+I13
+I9
+I6
+I139
+I1
+tp312
+(dp313
+tp314
+Rp315
+sg28
+g315
+sg29
+VNotHelpful
+p316
+sbsa(dp317
+g12
+I00
+sg13
+(lp318
+I456
+aI1628
+asg15
+(itiddlywiki
+Tiddler
+p319
+(dp320
+S'text'
+p321
+VHer: "The one that brought you a piece of pie at \u000aThanksgiving that one year?"<<remember $youMad = $youMad + 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["No, that was Dennis."|TooMany]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p322
+sS'tags'
+p323
+(lp324
+sS'created'
+p325
+g23
+((I2013
+I5
+I19
+I3
+I27
+I33
+I6
+I139
+I1
+tp326
+(dp327
+tp328
+Rp329
+sS'modified'
+p330
+g329
+sS'title'
+p331
+VPie
+p332
+sbsa(dp333
+g12
+I00
+sg13
+(lp334
+I426
+aI1774
+asg15
+(itiddlywiki
+Tiddler
+p335
+(dp336
+g321
+VHer: "Well you seem to have a new friend every week!  How am I \u000aever supposed to keep track?"<<remember $momMad = $momMad + 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Sorry Mom."|Lunch]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p337
+sg323
+(lp338
+sg325
+g23
+((I2013
+I5
+I19
+I3
+I32
+I33
+I6
+I139
+I1
+tp339
+(dp340
+tp341
+Rp342
+sg330
+g342
+sg331
+VTooMany
+p343
+sbsa(dp344
+g12
+I00
+sg13
+(lp345
+I705
+aI1469
+asg15
+(itiddlywiki
+Tiddler
+p346
+(dp347
+g321
+VHer: "You know, you shouldn't eat at restaurants too often, but I know how much you like trying new food.  You're so much like \u000ayour Grandmother!"<<remember $momMad = $momMad - 1>> <<remember $youMad = $youMad - 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Thanks Mom!"|Lunch]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p348
+sg323
+(lp349
+sg325
+g23
+((I2013
+I5
+I19
+I3
+I37
+I53
+I6
+I139
+I1
+tp350
+(dp351
+tp352
+Rp353
+sg330
+g353
+sg331
+VDinnerOut
+p354
+sbsa(dp355
+g12
+I00
+sg13
+(lp356
+I707
+aI1599
+asg15
+(itiddlywiki
+Tiddler
+p357
+(dp358
+g321
+V<<if $panic>>You panicked!\u000aYou: We went to see a movie.<<endif>> <<remember $panic = false>>\u000a\u000aHer: "I've never understood why you love movies so much!  You're so much like your Father!\u000a\u000aDid he ever tell you the story\u000aabout Superman?"<<remember $momMad = $momMad - 1>> \u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [[No, I never heard that one."|NeverHeard]]\u000aYou: [["Yes, I think I've heard it about a hundred times!"|AlreadyHeard]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p359
+sg323
+(lp360
+sg325
+g23
+((I2013
+I5
+I19
+I3
+I37
+I53
+I6
+I139
+I1
+tp361
+(dp362
+tp363
+Rp364
+sg330
+g364
+sg331
+VMovieOut
+p365
+sbsa(dp366
+g12
+I00
+sg13
+(lp367
+I649
+aI1770
+asg15
+(itiddlywiki
+Tiddler
+p368
+(dp369
+g321
+VHer: "Well, when your father was a child he would save up his money to go to the movies with his cousins.  One of the first movies he saw was an old Superman movie.  \u000a\u000aHe became obsessed.  \u000a\u000aHe would jump off anything and everything in an attempt to fly.  \u000aOne day, your grandmother had been given beautiful red fabric by the town's priest.  She was a well known seamstress and she had been asked by the Church to create a new robe for the priest's upcoming Christmas masses. \u000a\u000aYour father came home from school and found the fabric.  \u000a\u000aIt was red, long and flowy - just like a cape! \u000a\u000aHe ripped two holes in the fabric, strung a rope through the holes and tied it around his shoulders.\u000a\u000aFinally,  a Superman cape!  Your grandmother returned home to find your father running on the beach across the street with the priest's new fabric tied around his shoulders, billowing in the wind as he jumped and crashed into the ocean waves over and over in an attempt to fly."<<remember $momMad = $momMad - 1>> <<remember $youMad = $youMad - 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: "Amazing!  But somehow I'm not surprised at all.  I feel like Dad got into a lot of trouble as a kid. [[Thanks for the story, Mom."|Lunch]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p370
+sg323
+(lp371
+sg325
+g23
+((I2013
+I5
+I19
+I3
+I43
+I30
+I6
+I139
+I1
+tp372
+(dp373
+tp374
+Rp375
+sg330
+g375
+sg331
+VNeverHeard
+p376
+sbsa(dp377
+g12
+I00
+sg13
+(lp378
+I802
+aI1771
+asg15
+(itiddlywiki
+Tiddler
+p379
+(dp380
+g321
+VHer: "Well, I won't bore you with the details."\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Thanks Mom."|Lunch]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p381
+sg323
+(lp382
+sg325
+g23
+((I2013
+I5
+I19
+I3
+I43
+I37
+I6
+I139
+I1
+tp383
+(dp384
+tp385
+Rp386
+sg330
+g386
+sg331
+VAlreadyHeard
+p387
+sbsa(dp388
+g12
+I00
+sg13
+(lp389
+F563.75
+aF1946.25
+asg15
+(itiddlywiki
+Tiddler
+p390
+(dp391
+S'text'
+p392
+VHer: "Are you coming for lunch on Sunday?  Your cousins are visiting from out of town."<<remember $momMad = $momMad - 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Of course!|OfCourseWear]]  You've been telling me about it for weeks!<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p393
+sS'tags'
+p394
+(lp395
+sS'created'
+p396
+g23
+((I2013
+I5
+I19
+I11
+I0
+I57
+I6
+I139
+I1
+tp397
+(dp398
+tp399
+Rp400
+sS'modified'
+p401
+g400
+sS'title'
+p402
+VLunch
+p403
+sbsa(dp404
+g12
+I00
+sg13
+(lp405
+F568.75
+aF2095.0
+asg15
+(itiddlywiki
+Tiddler
+p406
+(dp407
+g392
+VHer: "What are you going to wear?"\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: "I have a [[new dress|NewDress]] I can wear."\u000aYou: "I think I'll wear [[that green dress."|GreenDress]]\u000aYou: "Hmm, I dunno. [[What do you think I should wear?"|Dunno]] <<set $numberOfLinks = 3>>\u000a\u000a<html>Hurry and choose an answer! <span id='countdown'>10 seconds remaining!</span></html><<countdown>><<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p408
+sg394
+(lp409
+sg396
+g23
+((I2013
+I5
+I19
+I11
+I6
+I51
+I6
+I139
+I1
+tp410
+(dp411
+tp412
+Rp413
+sg401
+g413
+sg402
+VOfCourseWear
+p414
+sbsa(dp415
+g12
+I00
+sg13
+(lp416
+F395.0
+aF2246.25
+asg15
+(itiddlywiki
+Tiddler
+p417
+(dp418
+g392
+V<<if $panic>>You panicked!\u000aYou: I have a new dress I can wear.<<endif>> <<remember $panic = false>>\u000a\u000aHer: "Another new dress?!  You should be saving your money for a \u000adownpayment, not a fancy frock!"<<remember $momMad = $momMad + 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Sorry Mom."|Tuesday]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p419
+sg394
+(lp420
+sg396
+g23
+((I2013
+I5
+I19
+I11
+I13
+I25
+I6
+I139
+I1
+tp421
+(dp422
+tp423
+Rp424
+sg401
+g424
+sg402
+VNewDress
+p425
+sbsa(dp426
+g12
+I00
+sg13
+(lp427
+F551.25
+aF2246.25
+asg15
+(itiddlywiki
+Tiddler
+p428
+(dp429
+g392
+V<<if $panic>>You panick!\u000aYou: I think I'll wear that green dress.<<endif>> <<remember $panic = false>>\u000a\u000aHer: "Oh, ok.  Are you sure?"\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Yea, it's my favourite!"|Favourite]]	\u000aYou: "Well now I'm not!  [[What do you think I should wear?"|Dunno]] <<set $numberOfLinks = 2>>\u000a\u000a<html>Hurry and choose an answer! <span id='countdown'>10 seconds remaining!</span></html><<countdown>><<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p430
+sg394
+(lp431
+sg396
+g23
+((I2013
+I5
+I19
+I11
+I13
+I26
+I6
+I139
+I1
+tp432
+(dp433
+tp434
+Rp435
+sg401
+g435
+sg402
+VGreenDress
+p436
+sbsa(dp437
+g12
+I00
+sg13
+(lp438
+F711.25
+aF2247.5
+asg15
+(itiddlywiki
+Tiddler
+p439
+(dp440
+g392
+V<<if $panic>>You panicked!\u000aYou: What do you think I should wear?<<endif>> <<remember $panic = false>>\u000a\u000aHer: "Oh honey, you look beautiful in everything. But maybe you should wear that gray and purple dress with the teal shrug\u000aand the teal shoes to match."<<remember $momMad = $momMad - 1>> <<remember $youMad = $youMad - 1>> \u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Thanks for the advice, Mom."|Tuesday]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p441
+sg394
+(lp442
+sg396
+g23
+((I2013
+I5
+I19
+I11
+I13
+I26
+I6
+I139
+I1
+tp443
+(dp444
+tp445
+Rp446
+sg401
+g446
+sg402
+VDunno
+p447
+sbsa(dp448
+g12
+I00
+sg13
+(lp449
+F560.0
+aF2392.5
+asg15
+(itiddlywiki
+Tiddler
+p450
+(dp451
+g392
+V<<if $panic>>You panicked!\u000aYou: Yea, it's my favourite!<<endif>> <<remember $panic = false>>\u000a\u000aHer: "Well it's not my favourite colour on you but you look great in anything, my beautiful daughter."<<remember $momMad = $momMad - 1>> <<remember $youMad = $youMad - 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Thanks Mom."|Tuesday]]<<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p452
+sg394
+(lp453
+sg396
+g23
+((I2013
+I5
+I19
+I11
+I19
+I44
+I6
+I139
+I1
+tp454
+(dp455
+tp456
+Rp457
+sg401
+g457
+sg402
+VFavourite
+p458
+sbsa(dp459
+g12
+I00
+sg13
+(lp460
+F562.5
+aF2545.0
+asg15
+(itiddlywiki
+Tiddler
+p461
+(dp462
+g392
+VHer: "Do you know what Tuesday is?"\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["The dog's birthday?"|DogBirthday]]	\u000aYou: [["Cousin's housewarming?"|Cousin2]]\u000aYou: [["Dad's retirement party?"|Retirement]]\u000aYou: [["Your Anniversary?"|Anniversary]] <<set $numberOfLinks = 4>>\u000a\u000a<html>Hurry and choose an answer! <span id='countdown'>10 seconds remaining!</span></html><<countdown>><<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p463
+sg394
+(lp464
+sg396
+g23
+((I2013
+I5
+I19
+I11
+I21
+I6
+I6
+I139
+I1
+tp465
+(dp466
+tp467
+Rp468
+sg401
+g468
+sg402
+VTuesday
+p469
+sbsa(dp470
+g12
+I00
+sg13
+(lp471
+F326.25
+aF2698.75
+asg15
+(itiddlywiki
+Tiddler
+p472
+(dp473
+g392
+V<<if $panic>>You panic!\u000aYou: The dog's birthday?<<endif>> <<remember $panic = false>>\u000a\u000aHer: "You really think so?  You and your Canadian\u000afriends have celebrations for everything!  \u000aWell, at least you're a happy bunch!\u000a\u000aThink harder!"<<remember $momMad = $momMad + 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["Cousin's housewarming?"|Cousin2]]\u000aYou: [["Dad's retirement party?"|Retirement]]\u000aYou: [["Your Anniversary?"|Anniversary]]	<<set $numberOfLinks = 3>>\u000a\u000a<html>Hurry and choose an answer! <span id='countdown'>1 minute 5 seconds remaining</span></html><<countdown>><<endif>> \u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p474
+sg394
+(lp475
+sg396
+g23
+((I2013
+I5
+I19
+I11
+I25
+I59
+I6
+I139
+I1
+tp476
+(dp477
+tp478
+Rp479
+sg401
+g479
+sg402
+VDogBirthday
+p480
+sbsa(dp481
+g12
+I00
+sg13
+(lp482
+F666.25
+aF2698.75
+asg15
+(itiddlywiki
+Tiddler
+p483
+(dp484
+g392
+V<<if $panic>>You panicked!\u000aYou: Dad's retirement party?<<endif>> <<remember $panic = false>>\u000a\u000aHer: "Thank goodness you remembered.  Don't be late! Your dad has \u000aworked very hard for this family and he's very proud of his accomplishments and his children!\u000a\u000a...\u000a\u000aMake sure your \u000abrother shaves his \u000abeard and [[gets a haircut."|NoProblem]]	<<remember $momMad = $momMad - 1>> <<remember $youMad = $youMad - 1>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p485
+sg394
+(lp486
+sg396
+g23
+((I2013
+I5
+I19
+I11
+I25
+I59
+I6
+I139
+I1
+tp487
+(dp488
+tp489
+Rp490
+sg401
+g490
+sg402
+VRetirement
+p491
+sbsa(dp492
+g12
+I00
+sg13
+(lp493
+F843.75
+aF2698.75
+asg15
+(itiddlywiki
+Tiddler
+p494
+(dp495
+g392
+V<<if $panic>>You panicked!\u000aYou: Your anniversary?<<endif>> <<remember $panic = false>>\u000a\u000aHer: "No no, my darling.  That's not until next month.  It'll be forty-nine years - can you believe it?  \u000a\u000aIt feels like me and your father were only children when we married - I was eighteen and he was twenty three.  We had twenty guests at our wedding in Portugal, not like the big weddings everyone has now.  \u000a\u000aWe moved to Toronto shortly after and rented a flat from an Italian family.  I took English lessons at the local highschool on weekends and got a factory job during the week that paid me $1.40 an hour.  I learned Italian and Spanish from my new friends at the factory.  \u000a\u000aFive years later we bought our first house on Wallace Avenue.  \u000a\u000a$24,000!  \u000a\u000aIt seemed so expensive, but what an exciting time - to have a house to grow into.  A house all your own that you can fill with friends and family and children.  I wish all of that for you, my beautiful daughter.<<remember $momMad = $momMad - 1>> <<remember $youMad = $youMad - 1>> \u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [[Thanks Mom.  Now I remember, Tuesday is Dad's retirement party|Retirement]] <<endif>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p496
+sg394
+(lp497
+sg396
+g23
+((I2013
+I5
+I19
+I11
+I26
+I0
+I6
+I139
+I1
+tp498
+(dp499
+tp500
+Rp501
+sg401
+g501
+sg402
+VAnniversary
+p502
+sbsa(dp503
+g12
+I00
+sg13
+(lp504
+F625.0
+aF2908.75
+asg15
+(itiddlywiki
+Tiddler
+p505
+(dp506
+g392
+VYou: "Ok Mom, no problem. I'll talk to Darren about the haircut, although I can't guarantee that it'll happen since\u000ahe's a 38 year old man who usually makes his own decisions.\u000a\u000aBut I'll do my best.\u000a\u000aAnyways, [[I've gotta go."|GottaGo]]\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p507
+sg394
+(lp508
+sg396
+g23
+((I2013
+I5
+I19
+I12
+I6
+I59
+I6
+I139
+I1
+tp509
+(dp510
+tp511
+Rp512
+sg401
+g512
+sg402
+VNoProblem
+p513
+sbsa(dp514
+g12
+I00
+sg13
+(lp515
+F632.5
+aF3055.0
+asg15
+(itiddlywiki
+Tiddler
+p516
+(dp517
+g392
+VHer: "Ok my beautiful daughter.\u000a\u000a[[Your father says hello."|Goodnight]]\u000a\u000a<<remember $momMad = $momMad - 1>> <<remember $youMad = $youMad - 1>>\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p518
+sg394
+(lp519
+sg396
+g23
+((I2013
+I5
+I19
+I12
+I8
+I20
+I6
+I139
+I1
+tp520
+(dp521
+tp522
+Rp523
+sg401
+g523
+sg402
+VGottaGo
+p524
+sbsa(dp525
+g12
+I00
+sg13
+(lp526
+F633.75
+aF3202.5
+asg15
+(itiddlywiki
+Tiddler
+p527
+(dp528
+g392
+VYou: "Goodnight Mom. \u000a\u000aLove ya," \u000a\u000a...\u000a\u000aPhew, it's finally time for that bathroom break. \u000a\u000a\u000a\u000aTHE END\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p529
+sg394
+(lp530
+sg396
+g23
+((I2013
+I5
+I19
+I12
+I9
+I52
+I6
+I139
+I1
+tp531
+(dp532
+tp533
+Rp534
+sg401
+g534
+sg402
+VGoodnight
+p535
+sbsa(dp536
+g12
+I00
+sg13
+(lp537
+F465.0
+aF2873.75
+asg15
+(itiddlywiki
+Tiddler
+p538
+(dp539
+S'text'
+p540
+V<<if $panic>>You panicked!\u000aYou: Cousin's housewarming?<<endif>> <<remember $panic = false>>\u000a\u000aHer: "Definitely not!  Who has a housewarming on a Tuesday?  Your cousin has more sense than that!\u000a\u000aThink harder!"<<remember $momMad = $momMad + 1>> <<remember $youMad = $youMad + 1>>\u000a\u000a<<if $momMad eq 4>>[[Her: "I have to go now."|MomQuit]]<<endif>>\u000a<<if $youMad eq 4>>[[You: "I have to go now."|DaughterQuit]]<<endif>>\u000a<<if ($momMad neq 4) and ($youMad neq 4)>>You: [["The dog's birthday?"|DogBirthday]]	\u000aYou: [["Dad's retirement party?"|Retirement]]\u000aYou: [["Your Anniversary?"|Anniversary]] <<set $numberOfLinks = 3>>\u000a\u000a<html>Hurry and choose an answer! <span id='countdown'>10 seconds remaining!</span></html><<countdown>><<endif>> \u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p541
+sS'tags'
+p542
+(lp543
+sS'created'
+p544
+g23
+((I2013
+I5
+I19
+I12
+I22
+I35
+I6
+I139
+I1
+tp545
+(dp546
+tp547
+Rp548
+sS'modified'
+p549
+g548
+sS'title'
+p550
+VCousin2
+p551
+sbsa(dp552
+g12
+I01
+sg13
+(lp553
+F151.25
+aF12.5
+asg15
+(itiddlywiki
+Tiddler
+p554
+(dp555
+S'text'
+p556
+Vmacros['countdown'] = {\u000a	handler: function() {\u000a		var minutes = 15;\u000a		var seconds = 10;\u000a\u000a		var interval = setInterval(function() {\u000a			var el = document.getElementById("countdown");\u000a			if(seconds == 0) {\u000a				if(minutes == 0) {\u000a					el.innerHTML = "You panic!";\u000a					\u000a					var links = document.getElementsByClassName("internalLink");\u000a					for (var i = 0; i < links.length; i++) {\u000a						links[i].setAttribute("id", i+1);\u000a					}\u000a\u000a					window.setTimeout(followRandomLink(1, state.history[0].variables["numberOfLinks"]), 2000);\u000a					function followRandomLink(min,max) {\u000a						var linkID = Math.floor(Math.random() * (max - min + 1)) + min;\u000a						var link = document.getElementById(linkID);\u000a						state.history[0].variables["panic"] = true\u000a						link.click();\u000a					}\u000a					clearInterval(interval);\u000a					return;\u000a				} else {\u000a					minutes--;\u000a					seconds = 60;\u000a				}\u000a			}\u000a			if(minutes > 0) {\u000a				var minute_text = minutes + (minutes > 1 ? ' minutes' : ' minute');\u000a			} else {\u000a				var minute_text = '';\u000a			}\u000a			var second_text = seconds > 1 ? 'seconds' : 'second';\u000a			el.innerHTML = minute_text + ' ' + seconds + ' ' + second_text + ' remaining!';\u000a			seconds--;\u000a		}, 1000);\u000a	}\u000a}
+p557
+sS'tags'
+p558
+(lp559
+Vscript
+p560
+asS'created'
+p561
+g23
+((I2013
+I5
+I19
+I13
+I34
+I38
+I6
+I139
+I1
+tp562
+(dp563
+tp564
+Rp565
+sS'modified'
+p566
+g565
+sS'title'
+p567
+Vscript
+p568
+sbsa(dp569
+g12
+I00
+sg13
+(lp570
+F572.5
+aF12.5
+asg15
+(itiddlywiki
+Tiddler
+p571
+(dp572
+g556
+V#countdown {\u000a	color: red;\u000a}
+p573
+sg558
+(lp574
+Vstylesheet
+p575
+asg561
+g23
+((I2013
+I5
+I19
+I14
+I51
+I53
+I6
+I139
+I1
+tp576
+(dp577
+tp578
+Rp579
+sg566
+g579
+sg567
+Vstylesheet
+p580
+sbsa(dp581
+g12
+I00
+sg13
+(lp582
+F712.5
+aF12.5
+asg15
+(itiddlywiki
+Tiddler
+p583
+(dp584
+S'text'
+p585
+VMom: "I have to go now.  I have things to do - you should think about getting something done today." \u000a\u000aYou: "Ok, fine.  Bye."\u000a\u000aWell, that didn't go well.  You'll try again tomorrow.\u000a\u000aTHE END\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p586
+sS'tags'
+p587
+(lp588
+sS'created'
+p589
+g23
+((I2013
+I5
+I19
+I15
+I26
+I34
+I6
+I139
+I1
+tp590
+(dp591
+tp592
+Rp593
+sS'modified'
+p594
+g593
+sS'title'
+p595
+VMomQuit
+p596
+sbsa(dp597
+g12
+I00
+sg13
+(lp598
+F852.5
+aF12.5
+asg15
+(itiddlywiki
+Tiddler
+p599
+(dp600
+g585
+VYou: "Ugh, Mom I have to go now.  I have things to do!"\u000a\u000aHer: "Ok, fine.  Call me tomorrow, we still have important things to discuss!"\u000a\u000aWell, that didn't go well.  You'll try again tomorrow.\u000a\u000aTHE END\u000a\u000a<<if $youMad lte 1>><html><img src="d_happy.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 2>><html><img src="d_neutral.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 3>><html><img src="d_sad.png" style="float: left;"></html><<endif>>\u000a<<if $youMad eq 4>><html><img src="d_angry.png" style="float: left;"></html><<endif>>\u000a\u000a<<if $momMad lte 1>><html><img src="mom_happy.png"></html><<endif>>\u000a<<if $momMad eq 2>><html><img src="mom_neutral.png"></html><<endif>>\u000a<<if $momMad eq 3>><html><img src="mom_sad.png"></html><<endif>>\u000a<<if $momMad eq 4>><html><img src="mom_angry.png"></html><<endif>>
+p601
+sg587
+(lp602
+sg589
+g23
+((I2013
+I5
+I19
+I15
+I26
+I34
+I6
+I139
+I1
+tp603
+(dp604
+tp605
+Rp606
+sg594
+g606
+sg595
+VDaughterQuit
+p607
+sbsasS'scale'
+p608
+F0.80000000000000004
+ss.
